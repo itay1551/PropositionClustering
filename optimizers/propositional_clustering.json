@@ -1,0 +1,28 @@
+{
+  "generate_clusters": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "salience_spans": "<START_SPAN_0>: Jake Gyllenhaal, Zach Galifianakis, Renee Zellweger<SPAN_SEP>and Amanda Seyfried are among the four-figure donors in recent days to Obama's campaign <END_SPAN_0> <START_SPAN_1>: The Obama campaign is using a mailer modeled after online cat memes as part of their final get out the vote push <END_SPAN_1> <START_SPAN_2>: High-profile Hollywooders<SPAN_SEP>are offering up a string of last-minute<SPAN_SEP>contributions both Barack Obama and Mitt Romney <END_SPAN_2> <START_SPAN_3>: For Romney, actor Kelsey Grammer<SPAN_SEP>John Elway and<SPAN_SEP>Bob Barker have made 11th hour, four-figure donations <END_SPAN_3>",
+        "clusters": "{2: 0, 0: 1, 3: 2, 1: 3}"
+      }
+    ],
+    "signature_instructions": "Please Cluster salience spans into groups. Each group should contain spans that share the same information. all the input spans should be in the output clusters",
+    "signature_prefix": "Clusters:"
+  },
+  "clean_clusters": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "salience_spans": "<START_SPAN_0>: The former couple, both 42, met while costarring in the original Broadway production of Rent in 1995 <END_SPAN_0> <START_SPAN_1>: Taye Diggs and Idina Menzel have separated <END_SPAN_1> <START_SPAN_2>: The pair has one son, Walker, 4 <END_SPAN_2> <START_SPAN_3>: confirms.\"Idina Menzel and Taye Diggs have jointly decided to separate at this time <END_SPAN_3> <START_SPAN_4>: time.\"Diggs<SPAN_SEP>and Menzel, both 42, met as costars in the original production of the Broadway musical Rent in the mid-1990s <END_SPAN_4> <START_SPAN_5>: reps for the couple tell <END_SPAN_5> <START_SPAN_6>: They married in 2003 <END_SPAN_6> <START_SPAN_7>: Diggs told Us, \"We're doing good!\" when congratulated on his milestone wedding anniversary<SPAN_SEP>despite the cheating rumors the couple had faced this past summer <END_SPAN_7> <START_SPAN_8>: 2009.Menzel<SPAN_SEP>spoke to PEOPLE about the marriage earlier this year, saying it wasn't always smooth sailing.\"We work at it,\" she said <END_SPAN_8> <START_SPAN_9>: The former couple, both 42<SPAN_SEP>later reprised their roles in the 2005 film adaptation <END_SPAN_9> <START_SPAN_10>: They<SPAN_SEP>had a son ,<SPAN_SEP>in September 2009.Menzel <END_SPAN_10> <START_SPAN_11>: Taye Diggs and Idina Menzel Separate\nAfter a decade of marriage <END_SPAN_11> <START_SPAN_12>: Idina Menzel and Taye Diggs have separated after 10 years of marriage <END_SPAN_12>",
+        "clusters": "{11: 0, 1: 0, 3: 0, 12: 0, 5: 1, 4: 2, 0: 2, 6: 3, 10: 4, 2: 4, 8: 5, 7: 6, 9: 7}"
+      }
+    ],
+    "signature_instructions": "Clean the dict to be only integers. The keys and the values must be type int, Return ONLY dict.\n\n    ---\n\n    Follow the examples:\n    String dict: {\"0\": \"cluster1\",\"1\": \"cluster2\",\"2\": \"cluster3\",\"3\": \"cluster3\",\"4\": \"cluster3\",\"5\": \"cluster3\",\"6\": \"cluster3\",\"7\": \"cluster3\",\"8\": \"cluster3\",\"9\": \"cluster3\",\"10\": \"cluster3\",\"11\": \"cluster3\",\"12\": \"cluster3\",\"13\": \"cluster3\",\"14\": \"cluster4\"}\n    Int dict:{0: 1,1: 2,2: 3,3: 3,4: 3,5: 3,6: 3,7: 3,8: 3,9: 3,10: 3,11: 3,12: 3,13: 3,14: 4}\n    \n\n    String dict: { '0': 0, '1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0, '10': 0, '11': 0, '12': 1, '13': 1, '14': 2 }\n    Int dict::{ 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 1, 13: 1, 14: 2 }\n    \n\n    String dict: \"{ 'SPAN_NUMBER_0': 'CLUSTER_1', 'SPAN_NUMBER_1': 'CLUSTER_2', 'SPAN_NUMBER_2': 'CLUSTER_2', 'SPAN_NUMBER_3': 'CLUSTER_2', 'SPAN_NUMBER_4': 'CLUSTER_2', 'SPAN_NUMBER_5': 'CLUSTER_2', 'SPAN_NUMBER_6': 'CLUSTER_2', 'SPAN_NUMBER_7': 'CLUSTER_2', 'SPAN_NUMBER_8': 'CLUSTER_3', 'SPAN_NUMBER_9': 'CLUSTER_4', 'SPAN_NUMBER_10': 'CLUSTER_4' }\"\n    Int dict:  { 0: 1, 1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 6: 2, 7: 2, 8: 3, 9: 4, 10: 4 }\n\n    \n    String dict: \"{<START_SPAN_0>: 0, <START_SPAN_1>: 0, <START_SPAN_2>: 1, <START_SPAN_3>: 0, <START_SPAN_4>: 2, <START_SPAN_5>: 2, <START_SPAN_6>: 2, <START_SPAN_7>: 1, <START_SPAN_8>: 2, <START_SPAN_9>: 2, <START_SPAN_10>: 3, <START_SPAN_11>: 2}\"}\n    Int dict:  {0: 0, 1: 0, 2: 1, 3: 0, 4: 2, 5: 2, 6: 2, 7: 1, 8: 2, 9: 2, 10: 3, 11: 2}\n    ---\n    ",
+    "signature_prefix": "Int Dict:"
+  }
+}

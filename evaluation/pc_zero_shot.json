@@ -1,0 +1,289 @@
+
+
+[
+    {
+        "homogeneity": 0.9655036172690302,
+        "completeness": 0.9217070242135998,
+        "v_measure": 0.9430971258633558
+    },
+    {
+        "homogeneity": 0.8709378287343267,
+        "completeness": 0.8564652125295801,
+        "v_measure": 0.8636408930265809
+    },
+    {
+        "homogeneity": 0.8482318497132748,
+        "completeness": 0.8166967231262047,
+        "v_measure": 0.8321656357073051
+    },
+    {
+        "homogeneity": 0.8253117886877819,
+        "completeness": 0.8488535167807805,
+        "v_measure": 0.8369171335469601
+    },
+    {
+        "homogeneity": 1,
+        "completeness": 0.9687500000000001,
+        "v_measure": 0.9841269841269843
+    },
+    {
+        "homogeneity": 0,
+        "completeness": 0,
+        "v_measure": 0
+    },
+    {
+        "homogeneity": 0.8333333333333333,
+        "completeness": 1,
+        "v_measure": 0.9090909090909091
+    },
+    {
+        "homogeneity": 0.868333399687441,
+        "completeness": 0.9570336748677559,
+        "v_measure": 0.9105284258682999
+    },
+    {
+        "homogeneity": 0.9371741985291226,
+        "completeness": 0.8683349202671894,
+        "v_measure": 0.9014422297670591
+    },
+    {
+        "homogeneity": 0.8850110714518081,
+        "completeness": 0.8441808914869711,
+        "v_measure": 0.8641139344694928
+    },
+    {
+        "homogeneity": 0.9389190519601731,
+        "completeness": 0.9389190519601731,
+        "v_measure": 0.9389190519601732
+    },
+    {
+        "homogeneity": 0.9999999999999999,
+        "completeness": 0.8659123211672697,
+        "v_measure": 0.9281382746061464
+    },
+    {
+        "homogeneity": 0.9515773308108715,
+        "completeness": 0.797172457940686,
+        "v_measure": 0.8675583489444628
+    },
+    {
+        "homogeneity": 1,
+        "completeness": 1,
+        "v_measure": 1
+    },
+    {
+        "homogeneity": 1.0000000000000002,
+        "completeness": 0.7687798533178652,
+        "v_measure": 0.8692770350994142
+    },
+    {
+        "homogeneity": 0.9359370254787319,
+        "completeness": 0.9359370254787319,
+        "v_measure": 0.9359370254787319
+    },
+    {
+        "homogeneity": 0.8982265179691366,
+        "completeness": 1,
+        "v_measure": 0.9463849645616855
+    },
+    {
+        "homogeneity": 0.8413911955654448,
+        "completeness": 0.7795680197698869,
+        "v_measure": 0.8093006436847079
+    },
+    {
+        "homogeneity": 0.8462309278638708,
+        "completeness": 0.8919489837379184,
+        "v_measure": 0.8684887117585053
+    },
+    {
+        "homogeneity": 0.9629809701853076,
+        "completeness": 0.7531993115588402,
+        "v_measure": 0.84526854375777
+    },
+    {
+        "homogeneity": 1,
+        "completeness": 0.7755566466883426,
+        "v_measure": 0.8735926821989739
+    },
+        {
+        "homogeneity": 0,
+        "completeness": 0,
+        "v_measure": 0
+    },
+    {
+        "homogeneity": 0.9178348809398833,
+        "completeness": 0.6931990385877108,
+        "v_measure": 0.789855817854362
+    },
+    {
+        "homogeneity": 0.8938204912131472,
+        "completeness": 0.7291977824967667,
+        "v_measure": 0.8031602979465782
+    },
+    {
+        "homogeneity": 0.9409444692932784,
+        "completeness": 0.8848940501650207,
+        "v_measure": 0.912058929132831
+    },
+    {
+        "homogeneity": 0.9500526783398721,
+        "completeness": 0.8461249661997174,
+        "v_measure": 0.8950821682833359
+    },
+    {
+        "homogeneity": 0.9999999999999997,
+        "completeness": 0.7486402177552923,
+        "v_measure": 0.8562541455397982
+    },
+    {
+        "homogeneity": 0.7336223041358625,
+        "completeness": 0.7618804134459578,
+        "v_measure": 0.7474843847719419
+    },
+        {
+        "homogeneity": 0,
+        "completeness": 0,
+        "v_measure": 0
+    },
+    {
+        "homogeneity": 0.9360999096884661,
+        "completeness": 0.8126439576075151,
+        "v_measure": 0.8700141279140436
+    },
+    {
+        "homogeneity": 0.9728554428310355,
+        "completeness": 0.7580650766244879,
+        "v_measure": 0.8521335642219349
+    },
+    {
+        "homogeneity": 0.7172703121730022,
+        "completeness": 0.748637335030924,
+        "v_measure": 0.7326182328419155
+    },
+    {
+        "homogeneity": 0.7820536529407042,
+        "completeness": 0.8351938666734513,
+        "v_measure": 0.8077507078217403
+    },
+    {
+        "homogeneity": 0.8433373747272055,
+        "completeness": 0.7867457182290429,
+        "v_measure": 0.8140591991367386
+    },
+    {
+        "homogeneity": 0.7294878024152243,
+        "completeness": 0.8212670905974204,
+        "v_measure": 0.7726615312520211
+    },
+    {
+        "homogeneity": 0.9776929721204488,
+        "completeness": 0.6121070586036514,
+        "v_measure": 0.7528654646075641
+    },
+    {
+        "homogeneity": 0.9363810941470297,
+        "completeness": 0.8352149092568399,
+        "v_measure": 0.8829094771891305
+    },
+    {
+        "homogeneity": 0.6189566033259163,
+        "completeness": 0.7960186977821234,
+        "v_measure": 0.6964093705060683
+    },
+    {
+        "homogeneity": 0.8147491175246083,
+        "completeness": 0.8588867797570474,
+        "v_measure": 0.8362359423542428
+    },
+    {
+        "homogeneity": 0.9243925141337037,
+        "completeness": 0.7553089789041603,
+        "v_measure": 0.8313405314586314
+    },
+    {
+        "homogeneity": 0.9588505806211745,
+        "completeness": 0.8233320391527025,
+        "v_measure": 0.8859388426599627
+    },
+    {
+        "homogeneity": 0.9599606647018082,
+        "completeness": 0.8168001525291491,
+        "v_measure": 0.8826129096795557
+    },
+    {
+        "homogeneity": 1,
+        "completeness": 0.7931563623800861,
+        "v_measure": 0.8846482984086413
+    },
+    {
+        "homogeneity": 0.8919261542370795,
+        "completeness": 0.8249706864486226,
+        "v_measure": 0.8571428571428569
+    },
+    {
+        "homogeneity": 0.8333333333333333,
+        "completeness": 0.9999999999999999,
+        "v_measure": 0.9090909090909091
+    },
+    {
+        "homogeneity": 0.9203599977466318,
+        "completeness": 0.8607734664208861,
+        "v_measure": 0.8895700199375715
+    },
+    {
+        "homogeneity": 0.9306004675434744,
+        "completeness": 0.7871520191711264,
+        "v_measure": 0.8528865977303595
+    },
+    {
+        "homogeneity": 0.5051961085524235,
+        "completeness": 1,
+        "v_measure": 0.6712694853274375
+    },
+    {
+        "homogeneity": 0.9411964928500817,
+        "completeness": 0.9037862039265366,
+        "v_measure": 0.9221120684850915
+    },
+        {
+        "homogeneity": 0,
+        "completeness": 0,
+        "v_measure": 0
+    },
+    {
+        "homogeneity": 0.8991110578355234,
+        "completeness": 0.7230351882123234,
+        "v_measure": 0.8015170450996608
+    },
+    {
+        "homogeneity": 0.8360473926425742,
+        "completeness": 0.7628823052381183,
+        "v_measure": 0.7977908760252153
+    },
+    {
+        "homogeneity": 0.7343708354253305,
+        "completeness": 0.925419497070286,
+        "v_measure": 0.8188999247399701
+    },
+    {
+        "homogeneity": 0.8667520566667241,
+        "completeness": 0.64329156877542,
+        "v_measure": 0.7384876580757058
+    },
+    {
+        "homogeneity": 0.9126740821363803,
+        "completeness": 0.7901025174382761,
+        "v_measure": 0.8469767438391509
+    },
+    {
+        "homogeneity": 0.9198125061486849,
+        "completeness": 0.9064149929733543,
+        "v_measure": 0.9130646063520357
+    },
+    {
+        "homogeneity": 0.8859654203854919,
+        "completeness": 0.8132565337495626,
+        "v_measure": 0.8480553879983737
+    }
+]
